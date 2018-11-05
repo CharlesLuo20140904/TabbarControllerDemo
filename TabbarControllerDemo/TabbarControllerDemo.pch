@@ -1,0 +1,17 @@
+//
+//  TabbarControllerDemo.pch
+//  TabbarControllerDemo
+//
+//  Created by jecansoft on 15/8/25.
+//  Copyright (c) 2015年 jecansoft. All rights reserved.
+//
+
+#ifndef TabbarControllerDemo_TabbarControllerDemo_pch
+#define TabbarControllerDemo_TabbarControllerDemo_pch
+#define ScreenWith [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+#define RANDOM_COLOR [UIColor colorWithRed:((arc4random()%255)+0)/255.0f green:((arc4random()%255)+0)/255.0f blue:((arc4random()%255)+0)/255.0f alpha:1.0f]
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
